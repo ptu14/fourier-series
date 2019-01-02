@@ -14,9 +14,15 @@
 <body>
     <main>
         <canvas></canvas>
+        <div class="radio">
+            <label for="squere">Prostokątna</label>
+            <input type="radio" id="squere" name="aprox" value="2" checked>
+            <label for="saw">Piłokształtna</label>
+            <input type="radio" id="saw" name="aprox" value="1"></div>
         <div class="controlpanel">
+
             <div class="rangeinput">
-                <label for="circle">Liczba N: <span id="n_number"></span></label>
+                <label for="circle">Liczba N: <span class="n_number"></span></label>
                 <input type="range" id="circle">
             </div>
             <div class="rangeinput">
@@ -28,6 +34,10 @@
                 <input type="range" id="speed">
             </div>
         </div>
+        <article>
+            <h2>Aproksymacja fali prostokątnej szeregiem Fouriera dla wyrazu n = <span class="n_number"></span></h2>
+            <p>Aproksymacja fali prostokątnej szeregiem Fouriera</p>
+        </article>
     </main>
 
 

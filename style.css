@@ -108,3 +108,8 @@ input[type=range]:focus::-ms-fill-upper {
     font-size: 1.2em;
     align-items: center
 }
+
+/* text style */
+article {
+    padding: 10px 10px
+}
