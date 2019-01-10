@@ -13,30 +13,39 @@
 
 <body>
     <main>
+        <h2>Aproksymacja fali szeregiem Fouriera dla wyrazu n = <span class="n_number"></span></h2>
         <canvas></canvas>
-        <div class="radio">
-            <label for="squere">Prostokątna</label>
-            <input type="radio" id="squere" name="aprox" value="2" checked>
-            <label for="saw">Piłokształtna</label>
-            <input type="radio" id="saw" name="aprox" value="1"></div>
-        <div class="controlpanel">
-
-            <div class="rangeinput">
-                <label for="circle">Liczba N: <span class="n_number"></span></label>
-                <input type="range" id="circle">
-            </div>
-            <div class="rangeinput">
-                <label for="size">Rozmiar</label>
-                <input type="range" id="size">
-            </div>
-            <div class="rangeinput">
-                <label for="speed">Prędkość</label>
-                <input type="range" id="speed">
-            </div>
-        </div>
         <article>
-            <h2>Aproksymacja fali prostokątnej szeregiem Fouriera dla wyrazu n = <span class="n_number"></span></h2>
-            <p>Aproksymacja fali prostokątnej szeregiem Fouriera</p>
+            <h3>Aproksymacja fali:</h3>
+            <div class="radio">
+
+                <div class="radiobutton"><label for="square">Prostokątna</label>
+                    <input type="radio" id="square" name="aprox" value="2" checked></div>
+                <div class="radiobutton"> <label for="triangle">Trójkątna</label>
+                    <input type="radio" id="triangle" name="aprox" value="2"></div>
+                <div class="radiobutton"> <label for="saw">Piłokształtna</label>
+                    <input type="radio" id="saw" name="aprox" value="1"></div>
+            </div>
+            <h3>Panel kontrolny:</h3>
+            <div class="controlpanel">
+
+                <div class="rangeinput">
+                    <label for="circle">Liczba N: <span class="n_number"></span></label>
+                    <input type="range" id="circle">
+                </div>
+                <div class="rangeinput">
+                    <label for="size">Rozmiar</label>
+                    <input type="range" id="size">
+                </div>
+                <div class="rangeinput">
+                    <label for="speed">Prędkość</label>
+                    <input type="range" id="speed">
+                </div>
+            </div>
+            <p>Analiza Fouriera pozwala na przedstawienie dowolnego przebiegu okresowego za pomocą sumy (nieskończonej
+                liczby) drgań harmonicznych. Powyższa wizaulizacja pokazuje kilka ciekawych przykładów. Wygląd
+                ostatecznego przebiegu zależy od ilości harmonicznych. Im większa liczba n, tym dokładniejszy przebieg
+                otrzymujemy. Dla n=1 przebieg jest sinusoidalny. </p>
         </article>
     </main>
 

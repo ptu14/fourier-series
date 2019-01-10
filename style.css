@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+canvas {
+    margin: auto;
+}
+
 /* input style */
 input[type=range] {
     -webkit-appearance: none;
@@ -109,7 +113,20 @@ input[type=range]:focus::-ms-fill-upper {
     align-items: center
 }
 
+/* radio */
+.radio {
+    display: flex;
+}
+
+.radiobutton {
+    padding: 0 15px
+}
+
 /* text style */
 article {
     padding: 10px 10px
+}
+
+p {
+    padding: 15px 0;
 }
